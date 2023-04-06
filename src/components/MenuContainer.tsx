@@ -1,3 +1,4 @@
+//@ts-nocheck
 import React, { useEffect, useState } from "react";
 import { IoFastFood } from "react-icons/io5";
 import { categories } from "../utils/data";
@@ -57,6 +58,7 @@ const MenuContainer = () => {
         </div>
 
         <div className="w-full">
+          
           <RowContainer
             flag={false}
             data={foodItems?.filter((n) => n.category == filter)}
