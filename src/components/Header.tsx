@@ -3,7 +3,7 @@ import { MdShoppingBasket, MdAdd, MdLogout } from "react-icons/md";
 import { motion } from "framer-motion";
 
 import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { app } from "../firebase.config";
+import { app } from "../firebaseconfig";
 
 import Logo from "../img/logo.png";
 import Avatar from "../img/avatar.png";
